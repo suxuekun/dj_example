@@ -1,0 +1,10 @@
+*.pyc
+.project
+.pydevproject
+dj_example/migrations
+dj_example/media
+media
+static
+
+
+
