@@ -5,6 +5,10 @@ dj_example/migrations
 dj_example/media
 media
 static
+node_modules
 
 
 
+
+apidoc
+doc
