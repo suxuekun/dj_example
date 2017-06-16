@@ -163,8 +163,8 @@ var exp = {
 	},
 	htmlMinify:{
 		"":{
-			src:_P(build_src_static,ALL_HTML),
-			dest:_P(build_min_static),
+			src:_P(build_src,ALL_HTML),
+			dest:_P(build_min),
 		}
 	},
 	rev:{

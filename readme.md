@@ -17,6 +17,14 @@
 
 只是挑选了必要的处理
 
+做了对django的静态文件处理
+在static_src和template_src中编写原始的django template 和 static 文件
+
+1 gulp or gulp dev
+	该操作会自动生成dj_example/static 和 dj_example/template，执行所有静态资源替换  
+2 python manage.py collectstatic
+	收集所有静态资源到根目录下 static文件夹
+
 ## 目的
 
 开发这个项目实际上是为了找到一个适合(至少适合我自己当前状况)的前端自动化流程
