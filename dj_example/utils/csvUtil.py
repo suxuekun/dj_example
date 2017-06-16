@@ -1,8 +1,8 @@
 import csv
 from StringIO import StringIO
 from xlwt import Workbook
-from dj_example.utils.strings import getDecentAttrSilent
 from django.http.response import HttpResponse
+from strings import getDecentAttrSilent
 def recordLine(line):
     return line;
 
@@ -139,6 +139,8 @@ def export_model_xls(queryset,model):
         row = row + 1    
 
     return wb;
-        
+
+if __name__ == "__main__":
+    print getDecentAttrSilent;
             
             
