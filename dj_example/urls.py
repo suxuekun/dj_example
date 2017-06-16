@@ -20,8 +20,7 @@ from django.contrib.auth.views import logout
 from django.views.i18n import JavaScriptCatalog
 from django.contrib.auth.decorators import user_passes_test
 from . import admin,auth
-from .view import  IndexView
-from dj_example.view import loginView
+from .view import  IndexView,loginView
 apis = []
 apis += auth.apis
 login_forbidden =  user_passes_test(lambda u: u.is_anonymous(), '/')
