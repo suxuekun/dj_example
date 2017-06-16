@@ -5,6 +5,7 @@
 dj_example/migrations
 dj_example/media
 dj_example/templates
+dj_example/static
 media
 static
 node_modules
