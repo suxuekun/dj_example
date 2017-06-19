@@ -138,14 +138,18 @@ var exp = {
 			src:_P(build_src_static,JS,ALL_JS),
 			dest:_P(build_min_static,JS),
 			uglifyConf: {
-				mangle:false,
+				mangle:{
+					reserved:['export','$','jQuery','module']
+				},
 			},
 		},
 		app:{
 			src:_P(build_src_static,APP,ALL_JS),
 			dest:_P(build_min_static,APP),
 			uglifyConf: {
-				mangle:false,
+				mangle:{
+					reserved:['export','$','jQuery','module']
+				},
 			},
 		}
 
