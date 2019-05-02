@@ -15,6 +15,7 @@ def import_as_csv(modeladmin, request, queryset):
     response = HttpResponse("ok");
     return response;    
 
+
 def export_as_xls(modeladmin, request, queryset):
     """
     Generic xls export admin action.

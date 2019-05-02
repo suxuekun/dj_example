@@ -1,4 +1,5 @@
 var path = require('path');
+
 	_path = _P = path.join,
 	_suffix = _S = (x) =>{
 		return "." + x;

@@ -1,9 +1,9 @@
 from django.contrib.admin import StackedInline
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
-from ..models.baseModelAdmin import BaseModelAdminDefaultOrdering
-from ..actions import import_as_csv
-    
+from actions import import_as_csv
 from .models import UserInfo
+from models.baseModelAdmin import BaseModelAdminDefaultOrdering
+
 
 class UserInfoInline(StackedInline):
     model = UserInfo

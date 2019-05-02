@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from django.db import transaction
 from django.http.response import HttpResponse, HttpResponseRedirect
-from ..view import GeneralResponseWrapper
+from view import GeneralResponseWrapper
 from __builtin__ import NotImplementedError
 class GeneralCustomAPIView(APIView):
     pass

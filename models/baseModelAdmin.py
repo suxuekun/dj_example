@@ -1,5 +1,4 @@
 from django.contrib.admin.options import ModelAdmin
-
 default_ordering = ("lastmodified",)
 
 class BaseModelAdmin(ModelAdmin):

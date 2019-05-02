@@ -5,6 +5,7 @@ var gulp = require('gulp'),
 	SPLITER = "-",
 	gulpsync = plugins.sync(gulp);
 
+
 var tasks = [];
 
 var loop = function(object,func){

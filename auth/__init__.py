@@ -2,12 +2,12 @@ from django.conf.urls import url, include
 from django.contrib.auth import views
 from django.contrib.auth.models import User, Group
 from django.contrib.auth.admin import GroupAdmin
-from .. import admin
 from . import restapi
 from .view import resetPasswordAPI
 from .models import UserInfo
 from .modelAdmin import UserAdmin, UserInfoAdmin
 from .form import password_reset
+import admin
 
 # admin.site.unregister(User)
 admin.site.register(Group,GroupAdmin)

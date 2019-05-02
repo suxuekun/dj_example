@@ -3,6 +3,7 @@ from StringIO import StringIO
 from xlwt import Workbook
 from django.http.response import HttpResponse
 from .strings import getDecentAttrSilent
+
 def recordLine(line):
     return line;
 

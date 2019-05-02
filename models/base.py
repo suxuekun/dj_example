@@ -1,5 +1,7 @@
 from django.db import models
-from ..utils import toStruct
+from utils import toStruct
+
+
 class ActiveMixinDefaultFalse(models.Model):
     is_active = models.BooleanField(default=False)
     

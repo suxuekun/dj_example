@@ -1,6 +1,6 @@
 import os
 from django.conf import settings
-from ..utils.strings import genStr
+from utils.strings import genStr
 
 def getFileSuffix(filename):
     filename, file_extension = os.path.splitext(filename)
@@ -23,3 +23,4 @@ def handleUploadSaveTempFile(request,renameLength = 8):
 
 def deleteFile(filename):
     os.remove(filename)
+    

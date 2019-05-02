@@ -2,6 +2,7 @@ from django.contrib.admin.options import get_content_type_for_model
 from django.utils.encoding import force_text
 from django.contrib.auth import authenticate
 
+
 def log_addition(request, instance, message):
     """
     Log that an instance has been successfully added.

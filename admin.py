@@ -1,6 +1,7 @@
-from .actions import export_as_xls
 from django.views.decorators.cache import never_cache
 from django.contrib.admin.sites import AdminSite
+from actions import export_as_xls
+
 
 class MyAdminSite(AdminSite):
     site_header = "dj example ADMIN"

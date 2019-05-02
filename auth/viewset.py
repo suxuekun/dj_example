@@ -1,10 +1,9 @@
 from django.contrib.auth.models import User
 import django_filters
 from django_filters.filters import DateTimeFilter
-from ..base.viewset import BaseViewSet
+from base.viewset import BaseViewSet
 from .models import UserInfo
 from .serializer import UserInfoSerializer, UserSerializer
-
 
 class UserViewSet(BaseViewSet):
     queryset = User.objects.all()

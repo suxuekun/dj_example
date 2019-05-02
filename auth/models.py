@@ -1,7 +1,7 @@
 from django.db import models
 from django.db.models.aggregates import Sum
 from django.contrib.auth.models import User
-from ..models.base import BaseModel, TimeStampMixin
+from models.base import BaseModel, TimeStampMixin
 
 class UserInfo(BaseModel, TimeStampMixin):
     user = models.OneToOneField(User, related_name='userinfo')

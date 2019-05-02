@@ -3,8 +3,8 @@ from django.db.models.aggregates import Sum
 from rest_framework.decorators import list_route
 from rest_framework.response import Response
 from rest_framework.viewsets import GenericViewSet
-from .. import utils
-from ..base.permission import IsAuthenticatedReadOnly
+import utils
+from base.permission import IsAuthenticatedReadOnly
 
 BASE_PERMISSION_CLASSES = [IsAuthenticatedReadOnly]
 
